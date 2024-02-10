@@ -1,0 +1,145 @@
+@media (max-width: 600px) {
+
+    .cabecalho-imagem{
+    
+    width: 250px;
+    
+    }
+    
+    .cabecalho-menu{
+    
+    display: none;
+    
+    }
+    
+    .cabecalho{
+    
+    padding: 24px;
+    
+    margin: 0;
+    
+    
+    }
+    
+    .menu-item{
+    
+    display: none;
+    
+    }
+    
+    .principal-box{
+    
+    background-color: #002df7e6;    
+    
+    width: 100%;
+    
+    height: 300px;
+    
+    }
+    
+    #imagem-capa{
+    
+    width: 100%;
+    
+    }
+    
+    .principal-texto{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    background-color: #002df7e6; 
+    color: #fff;
+    
+    font-size: 20px;
+    
+    width: 60%;
+    
+    padding: 30px;
+    
+    height: auto;
+    
+    margin-left: 0;
+    
+    }
+    
+    .conteudo-box{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: center;
+    
+    margin-top: 60px;
+    
+    }
+    
+    #inovacao, #tecnologia, #entrega{
+    
+    display: flex;
+    
+    flex-direction: column;
+    
+    width: 300px;
+    
+    font-weight: bold;
+    
+    background-color: #ffffffe6;
+    
+    border: 1px solid ;
+    
+    padding: 10px;
+    
+    border-radius: 10px;
+    
+    }
+    
+
+    
+    }
+    @media (min-width: 500px) and (max-width: 1451px) {
+        .principal-texto{
+        
+            display: flex;
+            
+            flex-direction: column;
+            
+            background-color: #002df7e6;
+            
+            color: #fff;
+            
+            font-size: 25px;
+            
+            width: 300px;
+            
+            padding: 30px;
+            
+            height: auto;
+            
+            }
+    }
+    
+        
+        #inovacao, #tecnologia, #entrega{
+        
+        display: flex;
+        
+        flex-direction: column;
+        
+        width: 200px;
+        
+        font-weight: bold;
+        
+        color: #0516ffe6;
+        
+        border: 1px solid ;
+        
+        padding: 10px;
+        
+        border-radius: 10px;
+        
+        }
+        
+        
