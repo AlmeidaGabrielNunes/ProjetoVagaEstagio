@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Verdana&display=swap'); /* importa fonte verdana */
 
-* {
+* { /* Reset de estilos: remove margens, preenchimentos, caixas de borda e decorações de texto padrão */
 
     margin: 0;
 
@@ -12,7 +12,7 @@
 
 }
 
-body {
+body { /* define todo o texto do body como verdana*/
 
     font-family: 'Verdana', sans-serif;
 
@@ -20,10 +20,10 @@ body {
 
 
 .cabecalho {
-    display: flex;
+    display: flex; /*display: flex;: Indica que o elemento com a classe .cabecalho e seus filhos diretos serão tratados como itens de um contêiner flexível.*/
     align-items: center;
     justify-content: space-between;
-    padding: 12px 24px;
+    padding: 12px 24px; /*: Esta propriedade define o preenchimento (espaço interno) do cabeçalho.*/
     height: 70px;
     background-color: #1c1c1c;
 }
@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     padding: 8px 16px;
     font-size: 25px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; /* tempo que demora para transitar de cor, quando o mouse estiver por cima*/
 }
 
 .menu-item:hover {
@@ -88,20 +88,20 @@ body {
 
     flex-direction: column;
 
-    background-color: #002df7e6;
+    background-color: #002df7e6;  /*define o fundo da caixa*/
 
-    color: #fff;
+    color: #fff; /*cor do texto*/
 
     font-size: 20px;
 
     width: 55%;
 
-    margin-top: 18%;
+    margin-top: 18%; /*distancia que fica do topo da página, 18% deixa centralizado na box central, na maioria dos monitores de computador */
 
     padding: 30px;
 
 
-    height: auto;
+    height: auto; /*modifica a altura conforme o texto*/
 
     margin-left: 90%;
 
@@ -111,7 +111,7 @@ body {
 
     display: flex;
 
-    gap: 30px;
+    gap: 30px; /* usada para definir a distância entre os itens dentro da caixa*/
 
     justify-content: center;
 
@@ -142,7 +142,7 @@ body {
 
 
 #formulario {
-    margin-top: 20px;
+    margin-top: 20px; /*não ficar grudado em outros conteúdos da página*/
     margin-bottom: 20px;
 }
 
