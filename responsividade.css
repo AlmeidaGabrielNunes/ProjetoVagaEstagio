@@ -99,7 +99,7 @@
 
     
     }
-    @media (min-width: 500px) and (max-width: 1451px) {
+    @media (min-width: 600px) and (max-width: 1451px) {
         .principal-texto{
         
             display: flex;
